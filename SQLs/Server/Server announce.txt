@@ -1,0 +1,9 @@
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('1', 'Besucht den Playertreff von Red-Dragon-WoW, Portal in jeder Hauptstadt');
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('2', 'Fehlt das ein oder andere Item? Dann besuchen sie doch mal das Auktionshaus oft befinden sich wertvolle Items darin.');
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('3', 'Sie fühlen sich alleine? Möchten sie das mehr Spieler den weg zu uns finden? Dann besuchen sie die Homepage www.red-dragon-wow.de und Voten sie für uns! Damit mehr Leute zu uns finden :).');
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('4', 'Ihnen gefällt das Aussehen ihrer Rüstung nicht? Sie finden die alten Items auf der Bank sehen Super toll aus aber das was sie gerade tragen ist einfach viel besser? Dann haben wir die Lösung: Transmogrification! Zu finden im Playertreff.');
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('5', 'Sie möchten verstehen was die Gegenfraktion spricht? Kein Problem besuch den Playertreff und finde den Sprachenlehrer.');
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('6', 'Sie möchten zusammen mit jemanden Spielen dieser aber ist in der Gegenfraktion? Kein Problem sie können Trotzdem Interagieren. Mit /Trade und den Namen können sie handeln oder mit /inv und den Namen ihn in eine Gruppe einladen.');
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('7', 'Noch nicht im World Chat ? Dann nicht wie los! /join World um mit allen Spielern überall auf der Welt zu Chatten.');
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('8', 'Sie haben Rote Fragezeichen im Beutel? Dann fehlt ihnen der RDW Hackpatch! Zu finden auf der Home Page Www.Red-dragon-wow.de.');
+INSERT INTO `autobroadcast` (`id`, `text`) VALUES ('9', 'Sie haben lvl 60 erreicht? Dann warten sie bevor sie in die Scherbenwelt gehen! Und besuchen sie den Playertreff und besorgen sie sich das T4 Set.');
