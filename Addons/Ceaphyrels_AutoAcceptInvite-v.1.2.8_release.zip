@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="de"><head>
+<base href="http://www.wow-castle.de/bboard/" />
+	<title>Fehlermeldung - WoW-Castle | World of Warcraft Privatserver</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="description" content="WoW-Castle.de - World of Warcraft WoW Privat Server, Content bis ICC, blizzlike, PvE-PvP, Arena S8.1, Chartransfers, große Community, WoW Privatserver" />
+<meta name="keywords" content="Privater WoW-Server World of Warcraft WoW Privat Server Deutsch Version 3.3.5a blizzlike mit Chartransfers WotLK" />
+<meta http-equiv="X-UA-Compatible" content="IE=8; IE=9" />
+<meta name="robots" content="noindex,nofollow" />
+<script type="text/javascript" src="wcf/js/3rdParty/protoaculous.1.8.2.min.js"></script>
+<script type="text/javascript" src="wcf/js/default.js"></script>
+<script type="text/javascript" src="wcf/js/PopupMenuList.class.js"></script>
+<script type="text/javascript" src="wcf/js/AjaxRequest.class.js"></script>
+
+<!-- wbb styles -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/style/burningBoard.css" />
+
+	<!-- special styles -->
+	
+<style type="text/css">
+#mce_editor_0_imgintern_li { display: none !important; }
+</style>
+
+<style type="text/css">
+#mce_editor_0_imgwidth_li { display: none !important; }
+</style>
+
+<style type="text/css">
+#mce_editor_0_iframe_li { display: none !important; }
+</style><meta http-equiv="content-language" content="de"/>
+<meta name="author" content="WoW-Castle"/>
+<meta name="page-topic" content="World of Warcraft WoW Privat Server WoW-Castle.de privater WoW Server"/>
+<meta http-equiv="reply-to" content=""/>
+<meta name="date" content="**.**.****"/>
+<meta name="audience" content="Alle"/>
+<meta name="revisit-after" content="1 days"/>
+<meta name="robots" content="index"/>
+<meta name="google-site-verification" content="mCj-P23SSD_ngkrlZEmYmW-BcfZw4FvL6TXGm0LcBfk"/><link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/wcf/style/dropdown-header-navi.css" />
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/wcf/style/dropdown-header-navi-ie-extra.css" /><![endif]--><link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/wcf/style/tableBBCodeSelection.css" /><script type="text/javascript" src="wcf/js/TableBBCodeSelection.js"></script>
+<!-- dynamic styles -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/wcf/style/style-29.css" />
+
+<!-- facebook information -->
+<meta property="og:title" content="WoW-Castle.de" />
+<meta property="og:description" content="WoW-Castle.de - World of Warcraft WoW Privat Server, Content bis ICC, blizzlike, PvE-PvP, Arena S8.1, Chartransfers, große Community, WoW Privatserver" />
+<meta property="og:type" content="game" />
+<meta property="og:image" content="http://www.wow-castle.de/bboard/images/WoW-C_470x470.png" />
+<meta property="og:site_name" content="WoW-Castle" />
+
+<!-- castle styles -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/skripte/css.php" />
+<!--[if gt IE 7]>
+	<link rel="stylesheet" type="text/css" href="http://www.wow-castle.de/bboard/css/ie8-and-up.css" />
+<![endif]-->
+
+<link type="text/css" rel="stylesheet" href="http://www.wow-castle.de/bboard/floatbox/floatbox.css">
+<script type="text/javascript" src="http://www.wow-castle.de/bboard/floatbox/floatbox.js"></script>
+<script type="text/javascript" src="http://www.wow-castle.de/bboard/floatbox/options.js"></script>
+
+<!-- print styles -->
+<link rel="stylesheet" type="text/css" media="print" href="http://www.wow-castle.de/bboard/wcf/style/extra/print.css" />
+
+<!-- opera styles -->
+<script type="text/javascript">
+	//<![CDATA[
+	if (Prototype.Browser.Opera) {
+		document.write('<style type="text/css">.columnContainer { border: 0;} .slides, .slides div { display: none; } .opera_slides { clear: both; display: inline; position: absolute; top: -175px; left: 195px; height: 160px !important; width: 720px !important; margin: 0; padding: 0; }</style>');
+	}
+	//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+	var SID_ARG_2ND	= '';
+	var SECURITY_TOKEN = '597851acc78813589ae3176d65860b4867adf3bf';
+	var RELATIVE_WCF_DIR = 'wcf/';
+	var RELATIVE_WBB_DIR = '';
+	var LANG_DELETE_CONFIRM = 'Möchtest du das Element wirklich löschen?';
+	//]]>
+</script>
+
+<!-- hack styles -->
+<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/wcf/style/extra/ie6-fix.css" />
+	<style type="text/css">
+					</style>
+<![endif]-->
+
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/wcf/style/extra/ie7-fix.css" />
+	<script type="text/javascript">
+		//<![CDATA[
+		document.observe('dom:loaded', function() {
+			if (location.hash) {
+				var columnContainer = null;
+				var columnContainerHeight = 0;
+				$$('.columnContainer > .column').each(function(column) {
+					if (columnContainer != column.up()) {
+						columnContainer = column.up();
+						columnContainerHeight = columnContainer.getHeight();
+					}
+					columnContainer.addClassName('columnContainerJS');
+					column.setStyle({ 'height': columnContainerHeight + 'px' });
+					columnContainer.up().setStyle({ 'height': columnContainerHeight + 1 + 'px' });
+					column.removeClassName('column').addClassName('columnJS');
+				});
+			}
+			$$('.layout-3 .second').each(function(column) {
+				column.insert('<div style="float: right; font-size: 0">&nbsp;</div>');
+			});
+		});
+		//]]>
+	</script>
+	<![endif]-->
+
+<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.wow-castle.de/bboard/wcf/style/extra/ie8-fix.css" />
+	<![endif]-->
+
+
+	<script type="text/javascript">
+		//<![CDATA[
+		if (document.referrer) {
+			onloadEvents.push(function() { document.getElementById('errorMessage').innerHTML += "<br /><a href=\"" + document.referrer + "\">Zurück zur vorherigen Seite</a>"; });
+		}
+		//]]>
+	</script>
+</head>
+<body>
+	
+<div id="headerContainer">
+	<a id="top"></a>
+	<div id="userPanel" class="userPanel">
+		<div class="userPanelInner">
+			<p style="display: none;" id="userAvatar">
+				<img src="wcf/images/avatars/avatar-default.png" alt="" />			</p>
+			<p id="userNote">
+				Du bist nicht angemeldet.			</p>
+			<div id="userMenu">
+				<ul>
+											<li id="userMenuLogin" class="options"><a href="http://www.wow-castle.de/bboard/index.php?form=UserLogin" id="loginButton"><img src="wcf/icon/loginS.png" alt="" id="loginButtonImage" /> <span>Anmelden</span></a></li>
+
+						<li id="userMenuRegistration"><a href="http://www.wow-castle.de/bboard/index.php?page=Register"><img src="wcf/icon/registerS.png" alt="" /> <span>Registrieren</span></a></li>
+						
+													<li id="userMenuLanguage" class="languagePicker options"><a id="changeLanguage" class="hidden"><img src="wcf/icon/languageDe-informalS.png" alt="" /> <span>Sprache ändern</span></a>
+								<div class="hidden" id="changeLanguageMenu">
+									<ul>
+																					<li><a rel="nofollow" href="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53&amp;l=1"><img src="wcf/icon/languageDeS.png" alt="" /> <span>Deutsch</span></a></li>
+																					<li class="active"><a rel="nofollow" href="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53&amp;l=4"><img src="wcf/icon/languageDe-informalS.png" alt="" /> <span>Deutsch (Anrede &raquo;Du&laquo;)</span></a></li>
+																					<li><a rel="nofollow" href="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53&amp;l=3"><img src="wcf/icon/languageEnS.png" alt="" /> <span>Englisch</span></a></li>
+																			</ul>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									onloadEvents.push(function() { document.getElementById('changeLanguage').className=''; });
+									popupMenuList.register('changeLanguage');
+									//]]>
+								</script>
+								<noscript>
+									<form method="get" action="index.php">
+										<div>
+											<label><img src="wcf/icon/languageDe-informalS.png" alt="" />
+												<select name="l">
+													<option label="Deutsch" value="1">Deutsch</option>
+<option label="Deutsch (Anrede &raquo;Du&laquo;)" value="4" selected="selected">Deutsch (Anrede &raquo;Du&laquo;)</option>
+<option label="Englisch" value="3">Englisch</option>
+												</select>
+											</label>
+																						<input type="image" class="inputImage" src="wcf/icon/submitS.png" alt="Absenden" />
+										</div>
+									</form>
+								</noscript>
+							</li>
+															</ul>
+			</div>
+		</div>
+	</div>
+
+			<script type="text/javascript">
+			//<![CDATA[
+			document.observe("dom:loaded", function() {
+				var loginFormVisible = false;
+
+				var loginBox = $('quickLoginBox');
+				var loginButton = $('loginButton');
+
+				if (loginButton && loginBox) {
+					function showLoginForm(evt) {
+						if (loginBox.hasClassName('hidden')) {
+							loginBox.setStyle('display: none');
+							loginBox.removeClassName('hidden');
+						}
+
+						var top = (loginButton.cumulativeOffset()[1] + loginButton.getHeight() + 5);
+						var left = loginButton.cumulativeOffset()[0] > $$('body')[0].getWidth()/2 ? loginButton.cumulativeOffset()[0] - loginBox.getWidth() + loginButton.getWidth() : loginButton.cumulativeOffset()[0];
+						loginBox.setStyle('left: ' + left + 'px; top: ' + top + 'px;');
+						if (loginBox.visible()) {
+							new Effect.Parallel([
+								new Effect.BlindUp(loginBox),
+								new Effect.Fade(loginBox)
+							], { duration: 0.3 });
+							loginFormVisible = false;
+						}
+						else {
+							new Effect.Parallel([
+								new Effect.BlindDown(loginBox),
+								new Effect.Appear(loginBox)
+							], { duration: 0.3 });
+							loginFormVisible = true;
+						}
+						evt.stop();
+					}
+
+					loginButton.observe('click', showLoginForm);
+					loginButton.observe('dblclick', function() { document.location.href = fixURL('index.php?form=UserLogin'); });
+
+					document.getElementById('quickLoginUsername').onfocus = function() { if (this.value == 'Benutzername') this.value=''; };
+					document.getElementById('quickLoginUsername').onblur = function() { if (this.value == '') this.value = 'Benutzername'; };
+					$('loginButtonImage').src = $('loginButtonImage').src.gsub('loginS.png', 'loginOptionsS.png');
+				}
+			});
+			//]]>
+		</script>
+	
+	<div id="header">
+
+		
+
+																			
+		<div id="search">
+			<form method="post" action="index.php?form=Search">
+
+				<div class="searchContainer">
+					<input type="text" tabindex="5" id="searchInput" class="inputText" name="q" value="Suchbegriffe eingeben" />
+					<input type="image" tabindex="6" id="searchSubmit" class="searchSubmit inputImage" src="wcf/icon/searchSubmitS.png" alt="Absenden" />
+										<input type="hidden" name="types[]" value="post" />
+					<script type="text/javascript">
+						//<![CDATA[
+						document.getElementById('searchInput').setAttribute('autocomplete', 'off');
+						document.getElementById('searchInput').onfocus = function() { if (this.value == 'Suchbegriffe eingeben') this.value=''; };
+						document.getElementById('searchInput').onblur = function() { if (this.value == '') this.value = 'Suchbegriffe eingeben'; };
+						document.getElementById('searchSubmit').ondblclick = function() { window.location = fixURL('index.php?form=Search'); };
+													popupMenuList.register("searchInput");
+							document.getElementById('searchInput').className += " searchOptions";
+												//]]>
+					</script>
+											<div class="searchInputMenu">
+							<div class="hidden" id="searchInputMenu">
+								<div class="pageMenu smallFont">
+									<ul>
+														<li><a href="http://www.wow-castle.de/bboard/index.php?form=Search&amp;action=unread">Ungelesene Beiträge</a></li>
+				<li><a href="http://www.wow-castle.de/bboard/index.php?form=Search&amp;action=unreplied">Unbeantwortete Themen</a></li>
+				<li><a href="http://www.wow-castle.de/bboard/index.php?form=Search&amp;action=24h">Themen der letzten 24 Stunden</a></li>
+																	<li><a href="http://www.wow-castle.de/bboard/index.php?form=Search">Erweiterte Suche</a></li>									</ul>
+								</div>
+							</div>
+						</div>
+					
+											<noscript>
+							<p><a href="http://www.wow-castle.de/bboard/index.php?form=Search">Erweiterte Suche</a></p>
+						</noscript>
+									</div>
+			</form>
+		</div>
+		<div id="logo">
+			<div class="logoInner">
+																	<h1 class="pageTitle"><a href="http://www.wow-castle.de/bboard/index.php?page=Portal">WoW-Castle | World of Warcraft Privatserver</a></h1>
+							</div>
+		</div>
+	</div>
+
+	<div id="board_shared_topnav"><div class="board_tn_interior board_topnav board_tn_armory board_tn_interior">
+  <a href="http://www.wow-castle.de/" title="Portal WoW-Castle Privatserver">Portal</a><img src="css/topnav_div.gif" alt="WoW-Castle.de Privatserver" /><a href="http://www.wow-castle.de/bboard/world-of-warcraft-wow-castle-forum.html" title="Forum WoW-Castle Privatserver">Forum</a><img src="css/topnav_div.gif" alt="WoW-Castle.de Privatserver" /><a href="http://armory.wow-castle.de" title="Armory/Arsenal WoW-Castle Privatserver">Armory</a><img src="css/topnav_div.gif" alt="WoW-Castle.de Privatserver" /><a href="http://vote.wow-castle.de" title="Voteshop WoW-Castle Privatserver">Voteshop</a><img src="css/topnav_div.gif" alt="WoW-Castle.de Privatserver" /><a href="http://aowow.wow-castle.de" title="AoWoW Datenbank WoW-Castle Privatserver">AoWoW</a><img src="css/topnav_div.gif" alt="WoW-Castle.de Privatserver" /><a href="http://bugs.wow-castle.de" title="WoW-Castle Bug-Reports">Bugtracker</a>
+  <img src="http://www.wow-castle.de/bboard/css/castle2013/news1.png" width="1" alt="" />
+</div></div>
+
+
+<div id="socialAd">
+    <div class="socialPics">
+        <a href="http://www.facebook.com/WoWCastleDe" title="WoW-Castle auf Facebook"><img src="icon/facebook_16.png" alt="WoW-Castle auf Facebook" /></a>
+        <a href="http://www.youtube.com/user/WoWCastleDE" title="WoW-Castle auf YouTube"><img src="icon/youtube_16.png" alt="WoW-Castle auf YouTube" /></a>
+        <a href="http://twitter.com/wowcastlede" title="WoW-Castle auf Twitter"><img src="icon/twitter_16.png" alt="WoW-Castle auf Twitter" /></a>
+        <a href="http://www.wow-castle.de/bboard/index.php?page=ThreadsFeed&format=rss2" title="WoW-Castle als RSS-Feed"><img src="icon/rss_16.png" alt="WoW-Castle als RSS-Feed" /></a>
+    </div>
+</div>
+
+
+    
+        <div id="mainMenu" class="mainMenu">
+
+            <div class="slides"><ul><li><img src="http://www.wow-castle.de/bboard/images/slider_thunder_neu.jpg" alt="image1"><div>WoW-Castle 3.3.5a WotLK blizzlike - Content spielbar bis ICC</div></li><li><img src="http://www.wow-castle.de/bboard/images/slider_under_neu.jpg" alt="image5"><div>Erlebe Spaß, Abenteuer und Action in einer verzauberten Welt!</div></li><li><img src="http://www.wow-castle.de/bboard/images/slider_darna_neu.jpg" alt="image2"><div>Community und Forum mit 25000 Mitgliedern - Join Us Now!</div></li><li><img src="http://www.wow-castle.de/bboard/images/slider_orgrim_neu.jpg" alt="image4"><div>Wir suchen immer interessierte Skripter, Grafiker, GMs...</div></li><li><img src="http://www.wow-castle.de/bboard/images/slider_iron_neu.jpg" alt="image3"><div>Chartransfers, Events, Arena, Armory, Bugtracker, Voteshop</div></li></ul></div>            <div class="opera_slides" style="background-image: url(http://www.wow-castle.de/bboard/images/slider_orgrim_neu.jpg);" alt="image4"><div>Wir suchen immer interessierte Skripter, Grafiker, GMs...</div></div><div class="opera_slides" style="background-image: url(http://www.wow-castle.de/bboard/images/slider_under_neu.jpg);" alt="image5"><div>Erlebe Spaß, Abenteuer und Action in einer verzauberten Welt!</div></div><div class="opera_slides" style="background-image: url(http://www.wow-castle.de/bboard/images/slider_thunder_neu.jpg);" alt="image1"><div>WoW-Castle 3.3.5a WotLK blizzlike - Content spielbar bis ICC</div></div><div class="opera_slides" style="background-image: url(http://www.wow-castle.de/bboard/images/slider_darna_neu.jpg);" alt="image2"><div>Community und Forum mit 25000 Mitgliedern - Join Us Now!</div></div><div class="opera_slides" style="background-image: url(http://www.wow-castle.de/bboard/images/slider_iron_neu.jpg);" alt="image3"><div>Chartransfers, Events, Arena, Armory, Bugtracker, Voteshop</div></div>
+            
+            <span class="logoGlobal"><a href="http://www.wow-castle.de" title="zur Startseite"><img src="http://www.wow-castle.de/bboard/images/WoW-C_trsp.png" alt=""></a></span>
+                            <div id="castleNews"><a href="http://www.wow-castle.de/bboard/index.php?form=Search&action=1J" title="Neueste Beiträge"></a></div>
+                        <span class="statusForum"> <img src="http://www.wow-castle.de/bboard/wcf/icon/onlineSS.png" alt="WoW Privatserver" />&nbsp; <i style="color: #fff;">ONLINE: 90</i>&nbsp;&nbsp;Max: 91<br />Allianz&nbsp;53<img src="http://www.wow-castle.de/bboard/wcf/icon/icon_alliS.png" alt="Castle Alliance" />&nbsp;-&nbsp;<img src="http://www.wow-castle.de/bboard/wcf/icon/icon_hordeS.png" alt="Castle Horde" />&nbsp;37 Horde<br />Uptime: 08h 36m</span>
+            <div id="animLeft"><a href="http://www.wow-castle.de" title="zur Startseite"><img src="http://www.wow-castle.de/bboard/images/fire4.gif" alt=""></a></div>
+            <div id="animRight"><a href="http://www.wow-castle.de" title="zur Startseite"><img src="http://www.wow-castle.de/bboard/images/fire4.gif" alt=""></a></div>
+
+            <div class="mainMenuInner">
+                <!--
+* CSS DropDown Header Menue .. Version 6.1.0 Komfort
+* @author Benn
+* @copyright 2010 Benn by www.bennboard.de
+* @license Copyright - Hinweis darf nicht entfernt werden
+-->
+
+<div id="dropdown-navigationHeader">
+	<ul id="navigationHeader">
+		<li class="first"><a href="http://www.wow-castle.de/bboard/index.php?form=UserLogin"><img src="wcf/icon/registerM.png" alt="" /> <span>Hallo Gast</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+				<ul class="navi-inner-block-1 smallFont transparentContainer">
+			<li class="navi-link-begin"><a style="width: 120px;" href="http://www.wow-castle.de/bboard/index.php?form=UserLogin"><img src="wcf/icon/logoutM.png" alt="" /> Anmelden</a></li>			<li class="navi-link-ende"><a style="width: 120px;" href="http://www.wow-castle.de/bboard/index.php?page=Register"><img src="wcf/icon/registerM.png" alt="" /> Registrieren</a></li>																																			</ul>
+			<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="middle"><a href="http://www.wow-castle.de/bboard/tausendwintersee.html"><img src="wcf/icon/wow_3M.png" alt="" /> <span>PvE/PvP</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+				<ul class="navi-inner-block-3 smallFont transparentContainer">
+			<li class="navi-link-begin"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/tausendwintersee.html"><img src="wcf/icon/essenceofwintergraspM.png" alt="" /> Tausendwintersee</a></li>			<li class="navi-link-begin"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/arena-rangliste.html"><img src="wcf/icon/pvpM.png" alt="" /> Arena Rangliste</a></li>			<li class="navi-link-mitte"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/instanzen-und-raids.html"><img src="wcf/icon/frostM.png" alt="" /> Instanzen und Raids</a></li>			<li class="navi-link-mitte"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/index.php?page=NovaContent4List"><img src="wcf/icon/achievM.png" alt="" /> Letzte Erfolge</a></li>			<li class="navi-link-mitte"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/castle-ranking.html"><img src="wcf/icon/achievRankM.png" alt="" /> Castle Ranking</a></li>			<li class="navi-link-mitte"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/index.php?page=NovaContent6List"><img src="wcf/icon/treasureM.png" alt="" /> Events & Feiertage</a></li>												<li class="navi-link-mitte"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/index.php?page=NovaContent7List"><img src="wcf/icon/bcM.png" alt="" /> Burning Crusade</a></li>			<li class="navi-link-mitte"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/index.php?page=NovaContent8List"><img src="wcf/icon/logoM.png" alt="" /> Wir sind Castle!</a></li>			<li class="navi-link-ende"><a style="width: 140px;" href="../aowow/"><img src="wcf/icon/aowowM.png" alt="" /> Castle Datenbank</a></li>					</ul>
+			<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="first"><a href="http://www.wow-castle.de/bboard/index.php?page=KarpoContent2List"><img src="wcf/icon/redoM.png" alt="" /> <span>Chartransfers</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+				<ul class="navi-inner-block-4 smallFont transparentContainer">
+																																									</ul>
+			<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li class="middle"><a href="http://www.wow-castle.de/bboard/world-of-warcraft-wow-castle-forum.html"><img src="icon/icons2013/indexM.png" alt="" /> <span>Forum</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+	   <!--[if lte IE 6]><table><tr><td><![endif]-->
+	      		  <ul class="navi-inner-block-5 smallFont transparentContainer">
+            <li class="navi-link-begin"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/index.php?form=Search&amp;action=newPostsSince&amp;since="><img src="wcf/icon/userMemoM.png" alt="" /> Neueste Beitr&auml;ge!</a></li>                        <li class="navi-link-mitte"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/aktuelle-informationen.html"><img src="icon/simpleNewsM.png" alt="" /> News</a></li>			<li class="navi-link-mitte"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/changelog.html"><img src="wcf/icon/fixesM.png" alt="" /> Changelog</a></li>
+            
+
+						
+            
+            
+    					<li class="navi-link-mitte"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/world-of-warcraft-wow-castle-blog.html"><img src="wcf/icon/blogM.png" alt="" /> BLOG</a></li>			<li class="navi-link-ende"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/index.php?form=Search"><img src="wcf/icon/searchM.png" alt="" /> Erweiterte Suche</a></li>																	</ul>
+			<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="middle"><a href="http://www.wow-castle.de/bboard/index.php?page=MibbitChat"><img src="wcf/icon/com.scz.ircchat2M.png" alt="" /> <span>Chat</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+				<ul class="navi-inner-block-6 smallFont transparentContainer">
+																																									</ul>
+			<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="middle"><a href="http://www.wow-castle.de/bboard/wow-anleitungen-und-infos.html"><img src="wcf/icon/helpM.png" alt="" /> <span>Hilfe &amp; Infos</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+				<ul class="navi-inner-block-8 smallFont transparentContainer">
+			<li class="navi-link-begin"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/index.php?page=KarpoContent2List"><img src="wcf/icon/redoM.png" alt="" /> Chartransfers</a></li>
+      <li class="navi-link-mitte navigationSupHeader"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/33-anleitung-f-r-installation-und-update-version-3-3-5a.html"><img src="wcf/icon/packageUpdateM.png" alt="WoW installieren" /> WoW installieren<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	      <!--[if lte IE 6]><table><tr><td><![endif]-->
+          <ul style="font-size:1em;">
+			      <li class="navi-link-begin"><a href="http://www.wow-castle.de/bboard/33-anleitung-f-r-installation-und-update-version-3-3-5a.html#post61"><img src="wcf/icon/packageUpdateS.png" alt="WoW Anleitung" /> WoW Anleitung</a></li>
+			      <li class="navi-link-mitte"><a href="http://www.wow-castle.de/bboard/8503-linux-world-of-warcraft-installieren.html#post60920"><img src="wcf/icon/linuxS.gif" alt="Linux und WoW" /> Linux und WoW</a></li>
+			      <li class="navi-link-mitte"><a href="http://www.wow-castle.de/bboard/index.php?page=DownloadDBView&amp;categoryID=1"><img src="wcf/icon/download_DBS.png" alt="WoW Installer and Patches" /> Installer/Patches</a></li>
+			      <li class="navi-link-mitte"><a href="http://www.wow-castle.de/bboard/index.php?page=DownloadDBView&amp;categoryID=3"><img src="wcf/icon/packageInstallS.gif" alt="WoW Addons" /> Addons 3.3.5a</a></li>
+			      <li class="navi-link-ende"><a href="http://www.wow-castle.de/bboard/index.php?page=DownloadDBView&amp;categoryID=4"><img src="wcf/icon/languageAddS.gif" alt="Sprach-Pakete" /> Sprach-Pakete</a></li>
+		      </ul>
+	      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+      
+	  
+      <li class="navi-link-mitte navigationSupHeader"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/143-faq-antworten-auf-h-ufig-gestellte-fragen.html#post959"><img src="wcf/icon/faqM.png" alt="Fragen und Antworten" /> Fragen und Antworten<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	      <!--[if lte IE 6]><table><tr><td><![endif]-->
+          <ul style="font-size:1em;">
+			      <li class="navi-link-begin"><a href="http://www.wow-castle.de/bboard/143-faq-antworten-auf-h-ufig-gestellte-fragen.html#post959"><img src="wcf/icon/faqS.png" alt="FAQ Castle" /> FAQ Castle</a></li>
+			      <li class="navi-link-mitte"><a href="http://www.wow-castle.de/bboard/8688-wegweiser-g-ngige-fehler.html#post62050"><img src="wcf/icon/warning_yellowS.png" alt="WoW Fehler?" /> WoW Fehler?</a></li>
+			      <li class="navi-link-ende"><a href="http://www.wow-castle.de/bboard/8689-wegweiser-fehler-codes-bei-crashes.html#post62056"><img src="wcf/icon/error_crossS.png" alt="WoW Crash?" /> WoW Crash?</a></li>
+		      </ul>
+	      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+      <li class="navi-link-mitte navigationSupHeader" style="display: none;"><a style="width: 150px;" href="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53#"><img src="wcf/icon/tools24M.gif" alt="WoW-Castle Tools" /> Tools<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	      <!--[if lte IE 6]><table><tr><td><![endif]-->
+          <!-- <ul style="font-size:1em;">
+			      <li class="navi-link-begin"><a href="http://www.wow-castle.de/armory/"><img src="wcf/icon/armoryS.png" alt="Armory WoW-Castle" /> Armory</a></li>
+			      <li class="navi-link-mitte"><a href="http://www.wow-castle.de/aowow/"><img src="wcf/icon/downloadDBKatS.png" alt="AoWoW Castle-Datenbank" /> Castle Datenbank</a></li>
+			      <li class="navi-link-ende"><a href="http://www.wow-castle.de/voteshop/"><img src="wcf/icon/userRankAddS.png" alt="Voteshop" /> Voteshop</a></li>
+		      </ul> -->
+	      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+			<li class="navi-link-mitte"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/bug-reports.html"><img src="wcf/icon/bugM.png" alt="" /> Bug melden</a></li>
+      
+			<li class="navi-link-mitte"><a style="width: 150px;" href="http://www.wow-castle.de/bboard/gilden-vorstellungen.html"><img src="wcf/icon/guildM.png" alt="" /> Gilden-Vorstellungen</a></li>
+      <li class="navi-link-ende navigationSupHeader"><a style="width: 150px;" href="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53#"><img src="wcf/icon/stuffM.gif" alt="Sonstiges" /> Sonstiges<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	      <!--[if lte IE 6]><table><tr><td><![endif]-->
+          <ul style="font-size:1em;">
+            <li class="navi-link-begin"><a href="http://www.wow-castle.de/bboard/6663-abk-rzungen-in-world-of-warcraft.html#post54312"><img src="wcf/icon/fileTypeIconInfS.png" alt="Abkürzungen" /> Abkürzungen</a></li>
+            <li class="navi-link-mitte"><a href="http://www.wow-castle.de/bboard/6408-videos-zu-world-of-warcraft-auf-wow-castle.html#post53003"><img src="wcf/icon/youTubeS.png" alt="Videos" /> Videos</a></li>
+            <li class="navi-link-ende"><a href="http://www.wow-castle.de/bboard/world-of-warcraft-allgemeine-foren-hilfe.html"><img src="wcf/icon/helpS.png" alt="Foren Hilfe" /> Foren Hilfe</a></li>
+		      </ul>
+	      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+																													</ul>
+			<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="last"><a href="http://www.wow-castle.de/bboard/guides-wotlk.html"><img src="wcf/icon/scroll24.png" alt="" /> <span>Guides</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+				<ul class="navi-inner-block-9 smallFont transparentContainer">
+			<li class="navi-link-begin"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/warrior-krieger.html"><img src="wcf/icon/class_warriorM.png" alt="" /> Krieger</a></li>			<li class="navi-link-mitte"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/paladin.html"><img src="wcf/icon/class_paladinM.png" alt="" /> Paladin</a></li>			<li class="navi-link-mitte"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/hunter-j-ger.html"><img src="wcf/icon/class_hunterM.png" alt="" /> Jäger</a></li>			<li class="navi-link-mitte"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/rogue-schurke.html"><img src="wcf/icon/class_rogueM.png" alt="" /> Schurke</a></li>			<li class="navi-link-mitte"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/priest-priester.html"><img src="wcf/icon/class_priestM.png" alt="" /> Priester</a></li>			<li class="navi-link-mitte"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/death-knight-todesritter.html"><img src="wcf/icon/class_deathknightM.png" alt="" /> Todesritter</a></li>			<li class="navi-link-mitte"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/shaman-schamane.html"><img src="wcf/icon/class_shamanM.png" alt="" /> Schamane</a></li>			<li class="navi-link-mitte"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/mage-magier.html"><img src="wcf/icon/class_mageM.png" alt="" /> Magier</a></li>			<li class="navi-link-mitte"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/warlock-hexenmeister.html"><img src="wcf/icon/class_warlockM.png" alt="" /> Hexenmeister</a></li>			<li class="navi-link-ende"><a style="width: 110px;" href="http://www.wow-castle.de/bboard/druid-druide.html"><img src="wcf/icon/class_druidM.png" alt="" /> Druide</a></li>											</ul>
+			<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="first"><a href="http://www.wow-castle.de/bboard/wow-server-regeln.html"><img src="wcf/icon/forumrulesM.png" alt="" /> <span>Regeln</span><!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+				<ul class="navi-inner-block-10 smallFont transparentContainer">
+			<li class="navi-link-begin"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/wow-server-regeln.html"><img src="wcf/icon/forumrulesM.png" alt="" /> Server Regeln</a></li>			<li class="navi-link-mitte"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/index.php?page=KarpoContent2List"><img src="wcf/icon/redoM.png" alt="" /> Chartransfers</a></li>			<li class="navi-link-mitte"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/index.php?page=KarpoContent3List"><img src="wcf/icon/teamSpeak3M.png" alt="" /> TeamSpeak Regeln</a></li>			<li class="navi-link-ende"><a style="width: 140px;" href="http://www.wow-castle.de/bboard/index.php?page=KarpoContent4List"><img src="wcf/icon/transferM.png" alt="" /> Interner Transfer</a></li>																													</ul>
+			<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>	</ul>
+</div>
+            </div>
+        </div>
+    
+    
+
+</div>
+<div id="mainContainer">
+
+<div id="main">
+	<p class="error" id="errorMessage">
+		Der download der Datei ist fehlgeschlagen.	</p>
+</div>
+
+<!-- 
+NamedUserException thrown in /var/www/bboard/wcf/lib/page/DownloadDBFileDownloadPage.class.php (105)
+Stracktrace:
+#0 /var/www/bboard/wcf/lib/page/AbstractPage.class.php(46): DownloadDBFileDownloadPage-&gt;show()
+#1 /var/www/bboard/wcf/lib/util/RequestHandler.class.php(64): AbstractPage-&gt;__construct()
+#2 /var/www/bboard/wcf/lib/util/RequestHandler.class.php(92): RequestHandler-&gt;__construct('DownloadDBFileD...', Array, 'page')
+#3 /var/www/bboard/index.php(8): RequestHandler::handle(Array)
+#4 {main}-->
+
+<div id="tableBBCodeContainer" class="tableBBCodeContainer container-1 border" style="display: none;">
+	
+	<ul id="row-1">
+		<li id="col-1-1"></li>
+		<li id="col-1-2"></li>
+		<li id="col-1-3"></li>
+		<li id="col-1-4"></li>
+		<li id="col-1-5"></li>
+		<li id="col-1-6"></li>
+		<li id="col-1-7"></li>
+		<li id="col-1-8"></li>
+		<li id="col-1-9"></li>
+		<li id="col-1-10"></li>
+	</ul>
+	<ul id="row-2">
+		<li id="col-2-1"></li>
+		<li id="col-2-2"></li>
+		<li id="col-2-3"></li>
+		<li id="col-2-4"></li>
+		<li id="col-2-5"></li>
+		<li id="col-2-6"></li>
+		<li id="col-2-7"></li>
+		<li id="col-2-8"></li>
+		<li id="col-2-9"></li>
+		<li id="col-2-10"></li>
+	</ul>
+	<ul id="row-3">
+		<li id="col-3-1"></li>
+		<li id="col-3-2"></li>
+		<li id="col-3-3"></li>
+		<li id="col-3-4"></li>
+		<li id="col-3-5"></li>
+		<li id="col-3-6"></li>
+		<li id="col-3-7"></li>
+		<li id="col-3-8"></li>
+		<li id="col-3-9"></li>
+		<li id="col-3-10"></li>
+	</ul>
+	<ul id="row-4">
+		<li id="col-4-1"></li>
+		<li id="col-4-2"></li>
+		<li id="col-4-3"></li>
+		<li id="col-4-4"></li>
+		<li id="col-4-5"></li>
+		<li id="col-4-6"></li>
+		<li id="col-4-7"></li>
+		<li id="col-4-8"></li>
+		<li id="col-4-9"></li>
+		<li id="col-4-10"></li>
+	</ul>
+	<ul id="row-5">
+		<li id="col-5-1"></li>
+		<li id="col-5-2"></li>
+		<li id="col-5-3"></li>
+		<li id="col-5-4"></li>
+		<li id="col-5-5"></li>
+		<li id="col-5-6"></li>
+		<li id="col-5-7"></li>
+		<li id="col-5-8"></li>
+		<li id="col-5-9"></li>
+		<li id="col-5-10"></li>
+	</ul>
+	<ul id="row-6">
+		<li id="col-6-1"></li>
+		<li id="col-6-2"></li>
+		<li id="col-6-3"></li>
+		<li id="col-6-4"></li>
+		<li id="col-6-5"></li>
+		<li id="col-6-6"></li>
+		<li id="col-6-7"></li>
+		<li id="col-6-8"></li>
+		<li id="col-6-9"></li>
+		<li id="col-6-10"></li>
+	</ul>
+	<ul id="row-7">
+		<li id="col-7-1"></li>
+		<li id="col-7-2"></li>
+		<li id="col-7-3"></li>
+		<li id="col-7-4"></li>
+		<li id="col-7-5"></li>
+		<li id="col-7-6"></li>
+		<li id="col-7-7"></li>
+		<li id="col-7-8"></li>
+		<li id="col-7-9"></li>
+		<li id="col-7-10"></li>
+	</ul>
+	<ul id="row-8">
+		<li id="col-8-1"></li>
+		<li id="col-8-2"></li>
+		<li id="col-8-3"></li>
+		<li id="col-8-4"></li>
+		<li id="col-8-5"></li>
+		<li id="col-8-6"></li>
+		<li id="col-8-7"></li>
+		<li id="col-8-8"></li>
+		<li id="col-8-9"></li>
+		<li id="col-8-10"></li>
+	</ul>
+	<ul id="row-9">
+		<li id="col-9-1"></li>
+		<li id="col-9-2"></li>
+		<li id="col-9-3"></li>
+		<li id="col-9-4"></li>
+		<li id="col-9-5"></li>
+		<li id="col-9-6"></li>
+		<li id="col-9-7"></li>
+		<li id="col-9-8"></li>
+		<li id="col-9-9"></li>
+		<li id="col-9-10"></li>
+	</ul>
+	<ul id="row-10">
+		<li id="col-10-1"></li>
+		<li id="col-10-2"></li>
+		<li id="col-10-3"></li>
+		<li id="col-10-4"></li>
+		<li id="col-10-5"></li>
+		<li id="col-10-6"></li>
+		<li id="col-10-7"></li>
+		<li id="col-10-8"></li>
+		<li id="col-10-9"></li>
+		<li id="col-10-10"></li>
+	</ul>
+</div></div>
+<div id="footerContainer">
+	<div id="footer">
+
+			<div id="footerMenu" class="footerMenu">
+		<div class="footerMenuInner"><ul><li id="mainMenuItem1" class="first"><a href="http://www.wow-castle.de/bboard/index.php?page=Help" title="Portal Hilfe"><img src="wcf/icon/helpS.png" alt="" /> <span>Portal Hilfe</span></a></li><li id="mainMenuItem4"><a href="http://www.wow-castle.de/bboard/index.php?page=Rules" title="Nutzungsbestimmungen"><img src="wcf/icon/termsOfUseS.png" alt="" /> <span>Nutzungsbestimmungen</span></a></li><li id="mainMenuItem38" class="last"><a href="http://www.wow-castle.de/bboard/index.php?page=LegalNotice" title="Impressum"><img src="wcf/icon/legalNoticeS.png" alt="" /> <span>Impressum</span></a></li></ul>
+		</div>
+	</div>
+		<div id="footerOptions" class="footerOptions">
+			<div class="footerOptionsInner">
+				<ul>
+										
+																<li id="date" class="date last" title="Montag,  2. September 2013, 14:06 UTC+2"><em><img src="wcf/icon/dateS.png" alt="" /> <span>Montag,  2. September 2013, 14:06</span></em></li>
+										<li id="toTopLink" class="last extraButton"><a href="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53#top" title="Zum Seitenanfang"><img src="wcf/icon/upS.png" alt="Zum Seitenanfang" /> <span class="hidden">Zum Seitenanfang</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<p class="copyright"><a href="http://www.woltlab.com/de/">Forensoftware: <strong>Burning Board&reg; 3.1.8</strong>, entwickelt von <strong>WoltLab&reg; GmbH</strong></a></p>
+
+                    <div id="spenden_li"><a href="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53#'" title=""><img src="images/pixel.png" alt="" width="1px" height="1px" /></a></div>
+            <div id="spenden_re"><a href="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53#'" title=""><img src="images/pixel.png" alt="" width="1px" height="1px" /></a></div>
+        
+        
+	</div>
+</div>
+	<div class="border loginPopup hidden" id="quickLoginBox">
+		<form method="post" action="index.php?form=UserLogin" class="container-1">
+			<div>
+				<input tabindex="1" type="text" class="inputText" id="quickLoginUsername" name="loginUsername" value="Benutzername" title="Benutzername" />
+				<input tabindex="2" type="password" class="inputText" id="quickLoginPassword" name="loginPassword" value="" title="Kennwort" />
+				<input type="hidden" name="url" value="/bboard/index.php?page=DownloadDBFileDownload&amp;dataID=53" />								<input tabindex="4" type="image" class="inputImage" src="wcf/icon/submitS.png" alt="Absenden" />
+			</div>
+			<p><label><input tabindex="3" type="checkbox" id="useCookies" name="useCookies" value="1" /> Dauerhaft angemeldet bleiben?</label></p>
+		</form>
+	</div>
+<img src="http://www.wow-castle.de/bboard/css/castle2013/news1.gif" height="1" width="1" style="position:absolute; left:-10px;" alt=":P" /></body>
+</html>
