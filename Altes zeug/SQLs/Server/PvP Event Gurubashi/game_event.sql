@@ -1,0 +1,1 @@
+INSERT INTO `game_event` (`eventEntry`, `start_time`, `end_time`, `occurence`, `length`, `holiday`, `description`, `world_event`, `announce`) VALUES (95, '0000-0-0 00:00:00', '0000-0-0 00:00:00', 5184000, 2592000, 0, 'RDW PvP Event Arena', 0, 2);

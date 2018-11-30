@@ -1,0 +1,3 @@
+on line number 257. (common.php) file change return $_config[0] =& $config; into
+$_config[0] =& $config;
+return $_config[0];

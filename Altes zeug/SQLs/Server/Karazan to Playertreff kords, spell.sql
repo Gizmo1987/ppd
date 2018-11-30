@@ -1,0 +1,1 @@
+Replace INTO `spell_target_position` (`id`, `effIndex`, `target_map`, `target_position_x`, `target_position_y`, `target_position_z`, `target_orientation`) VALUES (28147, 0, 1, 7422.23, -1608.81, 179, 2.48861);
