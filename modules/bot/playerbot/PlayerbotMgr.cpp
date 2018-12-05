@@ -10,20 +10,6 @@
 class LoginQueryHolder;
 class CharacterHandler;
 
-
-
-	void OnLogin(Player* pPlayer)
-	{
-		if (sConfigMgr->GetBoolDefault("AiPlayerbot.Enabled", true))
-		{
-			if (sConfigMgr->GetBoolDefault("AiPlayerbot.Announce", true))
-			{
-				ChatHandler(pPlayer->GetSession()).SendSysMessage("|cff4CFF00PlayerBots |rModul Geladen.");
-			}
-		}
-	}
-
-
 PlayerbotHolder::PlayerbotHolder() : PlayerbotAIBase()
 {
 	for (uint32 spellId = 0; spellId < sSpellStore.GetNumRows(); spellId++)
@@ -726,7 +712,7 @@ string PlayerbotHolder::ListBots(Player* master)
 
 	if (master)
 	{
-		QueryResult results = CharacterDatabase.PQuery("SELECT class,name FROM characters where account = '%u'",
+		QueryResult results = CharacterDatabase.PQuery("SELECT class,name FROM tc_characters_19.characters where account = '%u'",
 			master->GetSession()->GetAccountId());
 		if (results)
 		{

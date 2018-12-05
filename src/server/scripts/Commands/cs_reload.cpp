@@ -58,7 +58,6 @@ public:
             { "achievement_criteria_data",    SEC_ADMINISTRATOR, true,  &HandleReloadAchievementCriteriaDataCommand,    "" },
             { "achievement_reward",           SEC_ADMINISTRATOR, true,  &HandleReloadAchievementRewardCommand,          "" },
             { "all",                          SEC_ADMINISTRATOR, true,  nullptr,                                        "", reloadAllCommandTable },
-            { "areatrigger",                  SEC_ADMINISTRATOR, true,  &HandleReloadAreaTriggerCommand,                "" },
             { "areatrigger_involvedrelation", SEC_ADMINISTRATOR, true,  &HandleReloadQuestAreaTriggersCommand,          "" },
             { "areatrigger_tavern",           SEC_ADMINISTRATOR, true,  &HandleReloadAreaTriggerTavernCommand,          "" },
             { "areatrigger_teleport",         SEC_ADMINISTRATOR, true,  &HandleReloadAreaTriggerTeleportCommand,        "" },
@@ -352,17 +351,9 @@ public:
         return true;
     }
 
-    static bool HandleReloadAreaTriggerCommand(ChatHandler* handler, const char* /*args*/)
-    {
-        sLog->outString("Re-Loading Area Trigger definitions...");
-        sObjectMgr->LoadAreaTriggers();
-        handler->SendGlobalGMSysMessage("DB table `areatrigger` reloaded.");
-        return true;
-    }
-
     static bool HandleReloadAreaTriggerTeleportCommand(ChatHandler* handler, const char* /*args*/)
     {
-        sLog->outString("Re-Loading Area Trigger teleport definitions...");
+        sLog->outString("Re-Loading AreaTrigger teleport definitions...");
         sObjectMgr->LoadAreaTriggerTeleports();
         handler->SendGlobalGMSysMessage("DB table `areatrigger_teleport` reloaded.");
         return true;

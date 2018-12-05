@@ -12,7 +12,7 @@ public:
         {
             if (sConfigMgr->GetBoolDefault("Account.Mounts.Announce", true))
             {
-                ChatHandler(pPlayer->GetSession()).SendSysMessage("|cff4CFF00AccountMounts |rModul Geladen.");
+                ChatHandler(pPlayer->GetSession()).SendSysMessage("This server is running the |cff4CFF00AccountMounts |rmodule.");
             }
             std::vector<uint32> Guids;
             uint32 playerGUID = pPlayer->GetGUID();

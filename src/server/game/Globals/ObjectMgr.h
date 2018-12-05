@@ -389,27 +389,13 @@ struct SpellClickInfo
 typedef std::multimap<uint32, SpellClickInfo> SpellClickInfoContainer;
 typedef std::pair<SpellClickInfoContainer::const_iterator, SpellClickInfoContainer::const_iterator> SpellClickInfoMapBounds;
 
-struct AreaTriggerTeleport
+struct AreaTrigger
 {
     uint32 target_mapId;
     float  target_X;
     float  target_Y;
     float  target_Z;
     float  target_Orientation;
-};
-
-struct AreaTrigger
-{
-    uint32 entry;
-    uint32 map;
-    float x;
-    float y;
-    float z;
-    float radius;
-    float length;
-    float width;
-    float height;
-    float orientation;
 };
 
 struct BroadcastText
@@ -718,8 +704,6 @@ class ObjectMgr
 
         typedef UNORDERED_MAP<uint32, AreaTrigger> AreaTriggerContainer;
 
-        typedef UNORDERED_MAP<uint32, AreaTriggerTeleport> AreaTriggerTeleportContainer;
-
         typedef UNORDERED_MAP<uint32, uint32> AreaTriggerScriptContainer;
 
         typedef UNORDERED_MAP<uint32, AccessRequirement*> AccessRequirementContainer;
@@ -847,14 +831,6 @@ class ObjectMgr
             return NULL;
         }
 
-        AreaTriggerTeleport const* GetAreaTriggerTeleport(uint32 trigger) const
-        {
-            AreaTriggerTeleportContainer::const_iterator itr = _areaTriggerTeleportStore.find(trigger);
-            if (itr != _areaTriggerTeleportStore.end())
-                return &itr->second;
-            return NULL;
-        }
-
         AccessRequirement const* GetAccessRequirement(uint32 mapid, Difficulty difficulty) const
         {
             AccessRequirementContainer::const_iterator itr = _accessRequirementStore.find(MAKE_PAIR32(mapid, difficulty));
@@ -863,8 +839,8 @@ class ObjectMgr
             return NULL;
         }
 
-        AreaTriggerTeleport const* GetGoBackTrigger(uint32 Map) const;
-        AreaTriggerTeleport const* GetMapEntranceTrigger(uint32 Map) const;
+        AreaTrigger const* GetGoBackTrigger(uint32 Map) const;
+        AreaTrigger const* GetMapEntranceTrigger(uint32 Map) const;
 
         uint32 GetAreaTriggerScriptId(uint32 trigger_id);
         SpellScriptsBounds GetSpellScriptsBounds(uint32 spell_id);
@@ -1027,7 +1003,6 @@ class ObjectMgr
 
         void LoadGossipText();
 
-        void LoadAreaTriggers();
         void LoadAreaTriggerTeleports();
         void LoadAccessRequirements();
         void LoadQuestAreaTriggers();
@@ -1377,7 +1352,6 @@ class ObjectMgr
         TavernAreaTriggerContainer _tavernAreaTriggerStore;
         GossipTextContainer _gossipTextStore;
         AreaTriggerContainer _areaTriggerStore;
-        AreaTriggerTeleportContainer _areaTriggerTeleportStore;
         AreaTriggerScriptContainer _areaTriggerScriptStore;
         AccessRequirementContainer _accessRequirementStore;
         DungeonEncounterContainer _dungeonEncounterStore;
